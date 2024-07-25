@@ -1,0 +1,236 @@
+main {
+    min-height: 80vh;
+  }
+  
+  h3 {
+    padding: 1rem 0;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+  }
+  
+  h2 {
+    font-size: 1.4rem;
+    padding: 0.5rem 0;
+  }
+  
+  .rating span {
+    margin: 0.1rem;
+  }
+  
+  /* carousel */
+  .carousel-item-next,
+  .carousel-item-prev,
+  .carousel-item.active {
+    display: flex;
+  }
+  .carousel-caption {
+    position: absolute;
+    top: 0;
+  }
+  
+  .carousel-caption h2 {
+    color: #fff;
+  }
+  
+  .carousel img {
+    height: 300px;
+    padding: 30px;
+    margin: 40px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .carousel a {
+    margin: 0 auto;
+  }
+  
+  button {
+    width: 100%;
+  }
+  
+  @media (max-width: 900px) {
+    .carousel-caption h2 {
+      font-size: 2.5vw;
+    }
+  }
+  .footer {
+    background-color: #b289d0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .footer-content h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-content p {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .token-earning-rules {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .token-earning-rules h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .token-earning-rules h5 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .token-earning-rules ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .token-earning-rules p {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  .redeem-coupons {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .redeem-coupons h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .coupon-slider {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+  }
+  
+  .coupon-square {
+    flex: 0 0 250px; /* Maintain a fixed size */
+    height: 250px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Hide overflow */
+  }
+  
+  .coupon-square img {
+    width: 100%; /* Fill the entire coupon square */
+    height: 100%; /* Fill the entire coupon square */
+    object-fit: cover; /* Maintain aspect ratio and cover entire square */
+  }
+  .coupon-popup-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .coupon-popup {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 800px;
+    height: 70%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .coupon-content {
+    display: flex;
+    max-height: 70vh; /* Limit the maximum height of the content */
+  overflow: hidden;
+  }
+  
+  .left-side {
+    flex: 1;
+    max-height: 70vh; /* Limit the maximum height of the content */
+  overflow: hidden;
+  }
+  .left-side img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+  .right-side {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .claim-button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #333;
+  }
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 2; /* Ensure the close button appears above other content */
+  }
+  
+  .close-icon {
+    font-size: 34px;
+    color: #131313;
+  }
+  .terms-section {
+    margin-top: 20px;
+  }
+  
+  .terms-section h4 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .terms-section ul {
+    font-size: 12px;
+    list-style-type: disc;
+    padding-left: 20px;
+  }
