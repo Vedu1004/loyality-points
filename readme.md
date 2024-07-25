@@ -93,7 +93,3 @@ cd Contract
 3. Earn, view, or redeem loyalty points.
 4. View transaction history for detailed insights into your loyalty points activity.
 
-## Contributors
-1. [Ridhima Kohli](https://www.linkedin.com/in/ridhima-kohli-8494b6230/)
-2. [Vedant Joshi](https://www.linkedin.com/in/vedant-joshi-6587a8248/)
-3. [Saksham Negi](https://www.linkedin.com/in/sakshamian/)
